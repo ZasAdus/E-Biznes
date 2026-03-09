@@ -9,6 +9,9 @@ WORKDIR /home/
 COPY HelloWorld.java src/main/java/
 COPY run.sh .
 
+RUN sed -i 's/\r$//' run.sh \
+    && chmod +x run.sh
+
 RUN printf 'plugins { id "application" }\napplication {\n    mainClass = "HelloWorld"\n}\n' > build.gradle
 
 CMD ["/bin/bash"]
