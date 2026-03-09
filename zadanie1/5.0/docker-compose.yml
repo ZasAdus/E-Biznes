@@ -1,0 +1,6 @@
+version: "3.9"
+
+services:
+  app:
+    image: zasadus/zadanie1:4.5
+    command: ["/bin/bash"]
