@@ -9,5 +9,6 @@ WORKDIR /home/
 RUN printf 'plugins { id "java" }\nrepositories {\n mavenCentral()\n}\ndependencies {\n implementation "org.xerial:sqlite-jdbc:3.51.2.0"\n}\n' > build.gradle
 
 RUN bash -c "source $HOME/.sdkman/bin/sdkman-init.sh && gradle build"
-
 CMD ["/bin/bash"]
+
+#find ~/.gradle/caches -name "sqlite-jdbc*.jar"
