@@ -22,4 +22,11 @@
 ❌ 3.5 Aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota) <br>
 ❌ 4.0 Zwróci listę kategorii na określone żądanie użytkownika <br>
 ❌ 4.5 Zwróci listę produktów wg żądanej kategorii <br>
-❌ 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger <br> <h1>
+❌ 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger <br>
+
+<h2>Zadanie 4 Go<h2>
+✅ 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD [filmik](https://youtu.be/4EKrke0HCdk)<br>
+❌ 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy)<br>
+❌ 4.0 Należy dodać model Koszyka oraz dodać odpowiedni endpoint [filmik](https://youtu.be/N8_4V9y8H8U)<br>
+❌ 4.5 Należy stworzyć model kategorii i dodać relację między kategorią, a produktem<br>
+❌ 5.0 pogrupować zapytania w gorm’owe scope'y <br> <h1>
