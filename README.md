@@ -29,4 +29,16 @@
 ❌ 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy)<br>
 ❌ 4.0 Należy dodać model Koszyka oraz dodać odpowiedni endpoint <br>
 ❌ 4.5 Należy stworzyć model kategorii i dodać relację między kategorią, a produktem<br>
-❌ 5.0 pogrupować zapytania w gorm’owe scope'y <br> <h1>
+❌ 5.0 pogrupować zapytania w gorm’owe scope'y <br>
+
+<h2>Zadanie 5 React<h2>
+✅ 3.0 W ramach projektu należy stworzyć dwa komponenty: Produkty oraz
+Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w
+Produktach powinniśmy pobierać dane o produktach z aplikacji
+serwerowej [filmik](https://youtu.be/7RMKuKq1zYk) <br>
+❌ 3.5 Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing <br>
+❌ 4.0 Dane pomiędzy wszystkimi komponentami powinny być przesyłane za
+pomocą React hooks <br>
+❌ 4.5 Należy dodać skrypt uruchamiający aplikację serwerową oraz
+kliencką na dockerze via docker-compose <br>
+❌ 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS <br> <h1>
