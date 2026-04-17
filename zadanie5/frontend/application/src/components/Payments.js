@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { fetchProducts } from '../api/api';
 
 function Payments({ onPurchase }) {
   const [products, setProducts] = useState([]);
@@ -6,9 +7,8 @@ function Payments({ onPurchase }) {
   const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
 
-  const fetchProducts = () => {
-    fetch('http://localhost:8080/api/products')
-      .then(res => res.json())
+  useEffect(() => {
+    fetchProducts()
       .then(data => {
         setProducts(data);
         setLoading(false);
@@ -17,10 +17,6 @@ function Payments({ onPurchase }) {
         setLoading(false);
         alert("Błąd ładowania produktów");
       });
-  };
-
-  useEffect(() => {
-    fetchProducts();
   }, []);
 
   const buy = async () => {
