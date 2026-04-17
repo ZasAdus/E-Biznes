@@ -27,14 +27,14 @@ function Products({ refresh }) {
 
   return (
     <div>
-      <h2>Produkty</h2>
+      <h2>Products</h2>
 
       <table border="1" cellPadding="8">
         <thead>
           <tr>
             <th>ID</th>
             <th>Nazwa</th>
-            <th>Cena (PLN)</th>
+            <th>Cena</th>
             <th>Dostępne</th>
           </tr>
         </thead>

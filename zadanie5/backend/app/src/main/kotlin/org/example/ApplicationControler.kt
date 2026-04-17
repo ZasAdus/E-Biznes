@@ -14,10 +14,6 @@ class ApplicationControler(
         return productRepository.findAll()
     }
 
-    @PostMapping("/products")
-    fun addProduct(@RequestBody product: Product): Product {
-        return productRepository.save(product)
-    }
 
     @PostMapping("/payments")
     fun buy(@RequestBody request: BuyRequest): Product {

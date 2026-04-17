@@ -4,7 +4,7 @@ export async function fetchProducts() {
 }
 
 export async function updateProduct(id, data) {
-  const res = await fetch(`http://localhost:8080/api/products/${id}`, {
+  const res = await fetch(`http://localhost:8080/api/payments/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json"
