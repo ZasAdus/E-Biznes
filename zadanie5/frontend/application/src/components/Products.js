@@ -1,22 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import { fetchProducts } from "../api/api";
 
-function Products() {
+function Products({ refresh }) {
   const [products, setProducts] = useState([]);
-  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    fetch('http://localhost:8080/api/products')
-      .then(res => res.json())
+  const load = () => {
+    fetchProducts()
       .then(data => {
-        setProducts(data);
+        setProducts(data.sort((a, b) => a.id - b.id));
         setLoading(false);
       })
-      .catch(err => {
-        setError('Błąd połączenia z serwerem');
+      .catch(() => {
+        setError("Błąd połączenia z serwerem");
         setLoading(false);
       });
-  }, []);
+  };
+
+  useEffect(() => {
+  load();
+    }, [refresh]);
 
   if (loading) return <p>Ładowanie...</p>;
   if (error) return <p>{error}</p>;
@@ -24,20 +28,24 @@ function Products() {
   return (
     <div>
       <h2>Produkty</h2>
+
       <table border="1" cellPadding="8">
         <thead>
           <tr>
             <th>ID</th>
             <th>Nazwa</th>
             <th>Cena (PLN)</th>
+            <th>Dostępne</th>
           </tr>
         </thead>
+
         <tbody>
           {products.map(p => (
             <tr key={p.id}>
               <td>{p.id}</td>
               <td>{p.name}</td>
               <td>{p.price}</td>
+              <td>{p.quantity}</td>
             </tr>
           ))}
         </tbody>
