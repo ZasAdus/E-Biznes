@@ -1,0 +1,52 @@
+{
+  "user": {
+    "email": "testuser@example.com",
+    "password": "Test1234!",
+    "username": "TestUser",
+    "display_name": "TestUser",
+    "id": 1,
+    "token": "fake-jwt-token-abc123"
+  },
+  "product": {
+    "id": 42,
+    "name": "Plecak Nike Air Max",
+    "title": "Plecak Nike Air Max",
+    "price": 399.99,
+    "category_id": 2,
+    "description": "Świetny plecak w idealnym stanie",
+    "image_url": "/api/uploads/products/plecak.jpg",
+    "seller_id": 99,
+    "status": "aktywna"
+  },
+  "product2": {
+    "id": 43,
+    "name": "iPhone 14 Pro",
+    "title": "iPhone 14 Pro",
+    "price": 4500.00,
+    "category_id": 3,
+    "description": "Telefon jak nowy, bez śladów użytkowania",
+    "image_url": "/api/uploads/products/iphone.jpg",
+    "seller_id": 99,
+    "status": "aktywna"
+  },
+  "order": {
+    "id": 7,
+    "product_id": 42,
+    "buyer_id": 1,
+    "status": "pending",
+    "total_price": 3999.99
+  },
+  "categories": [
+    { "id": 1, "name": "Elektronika" },
+    { "id": 2, "name": "Komputery" },
+    { "id": 3, "name": "Telefony" },
+    { "id": 4, "name": "Odzież" }
+  ],
+  "ycoinsBalance": {
+    "balance": 250
+  },
+  "opinion": {
+    "rating": 5,
+    "comment": "Polecam! Szybka wysyłka i produkt zgodny z opisem."
+  }
+}
