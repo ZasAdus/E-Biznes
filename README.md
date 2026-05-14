@@ -48,7 +48,7 @@ kliencką na dockerze via docker-compose <br>
 ❌ 3.5 Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji<br>
 ❌ 4.0 Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 50 asercjami<br>
 ❌ 4.5 Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint <br>
-❌ 5.0 Należy uruchomić testy funkcjonalne na Browserstacku <br> <h1>
+❌ 5.0 Należy uruchomić testy funkcjonalne na Browserstacku <br> 
 
 
 <h2>Zadanie 7 Sonar <h2>
@@ -60,8 +60,8 @@ kliencką na dockerze via docker-compose <br>
 
 <h2>Zadanie 8 OAuth2<h2>
 
-✅ 3.0 logowanie przez aplikację serwerową (bez Oauth2) [filmik](https://youtu.be/ns0snlTAjN8)
-❌ 3.5 rejestracja przez aplikację serwerową (bez Oauth2)
-❌ 4.0 logowanie via Google OAuth2
-❌ 4.5 logowanie via Facebook lub Github OAuth2
-❌ 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
+✅ 3.0 logowanie przez aplikację serwerową (bez Oauth2) [filmik](https://youtu.be/ns0snlTAjN8) <br>
+❌ 3.5 rejestracja przez aplikację serwerową (bez Oauth2) <br>
+❌ 4.0 logowanie via Google OAuth2 <br>
+❌ 4.5 logowanie via Facebook lub Github OAuth2 <br>
+❌ 5.0 zapisywanie danych logowania OAuth2 po stronie serwera <br> <h1>
