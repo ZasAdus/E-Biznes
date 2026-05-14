@@ -57,3 +57,11 @@ kliencką na dockerze via docker-compose <br>
 ❌ 4.0 Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej) <br>
 ❌ 4.5 Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej) <br>
 ❌ 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej <br>
+
+<h2>Zadanie 8 OAuth2<h2>
+
+✅ 3.0 logowanie przez aplikację serwerową (bez Oauth2) [filmik](https://youtu.be/ns0snlTAjN8)
+❌ 3.5 rejestracja przez aplikację serwerową (bez Oauth2)
+❌ 4.0 logowanie via Google OAuth2
+❌ 4.5 logowanie via Facebook lub Github OAuth2
+❌ 5.0 zapisywanie danych logowania OAuth2 po stronie serwera
