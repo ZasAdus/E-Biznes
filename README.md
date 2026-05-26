@@ -1,4 +1,4 @@
-<h1>Zadania z przedmiotu E-biznes
+<h1>Zadania z przedmiotu E-biznes, wszystkie zadania zostały oddane w terminie, można się sugerować datą wrzucenia filmików na yt
 
 <h2>Zadanie 1 Docker<h2>
 <t>Wszystkie obrazy znajdują się w jednym repozytorium, mają one adekwatne tagi takie jak oceny [repozytorium](https://hub.docker.com/repository/docker/zasadus/zadanie1/general)<t> <br>
