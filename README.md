@@ -71,4 +71,12 @@ kliencką na dockerze via docker-compose <br>
 ❌ 3.5 należy połączyć serwis z interfejsem frontendowym via serwis w Kotlinie (zadanie 3) - discord + JS <br>
 ❌ 4.0 stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy <br>
 ❌ 4.5 filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT <br>
-❌ 5.0 filtrowanie odpowiedzi po sentymencie <br> <h1>
+❌ 5.0 filtrowanie odpowiedzi po sentymencie <br>
+
+
+<h2>Chmura<h2>
+3.0 Należy stworzyć odpowiednie instancje po stronie chmury na dockerze [filmik](https://youtu.be/VaNWarjqiUs) <br>
+3.5 Stworzyć odpowiedni pipeline w Github Actions do budowania aplikacji (np. via fatjar) <br>
+4.0 Dodać notyfikację mailową o wynikach z sonara <br>
+4.5 Dodać krok z deploymentem aplikacji klienckiej na chmurę (obie ze sobą rozmawiają) <br>
+5.0 Dodać uruchomienie regresyjnych testów automatycznych (funkcjonalnych) jako krok w Actions w Browserstacku <br> <h1>
